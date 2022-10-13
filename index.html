@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+		    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		
+		<title>GuaiOK</title>
+		<!-- 网站主页必须引入 -->
+		<script src="domain.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			body {
+				background-color: #f3f6f9;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			li {
+				list-style: none;
+			}
+
+			main {
+				width: 500px;
+				margin: 0 auto;
+				text-align: center;
+				margin-top: 18%;
+			}
+
+			main h2 {
+				font-size: 56px;
+
+			}
+
+			main h1 {
+				background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 33.3%, rgba(252, 176, 69, 1) 66.6%, rgba(131, 58, 180, 1) 100%);
+				-webkit-background-clip: text;
+				/*截取背景区域为文字*/
+				color: transparent;
+				background-size: 300% 100%;
+				/*扩大背景区域*/
+				animation: text 4s infinite linear;
+			}
+
+			@keyframes text {
+				0% {
+					background-position: 0 0;
+				}
+
+				100% {
+					background-position: -150% 0;
+				}
+			}
+
+			footer {
+				width: 100%;
+				height: 50px;
+				position: fixed;
+				bottom: 0;
+				text-align: center;
+
+			}
+
+			footer a {
+				color: #abc;
+			}
+
+			footer ul {
+				color: #abc;
+				display: flex;
+				justify-content: center;
+			}
+
+			footer li:first-child {
+				border-right: 1px solid #abc;
+			}
+
+			footer li {
+				padding: 0 7px;
+
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h2>Hello World !</h2>
+			<h1>Bealei.com</h1>
+		</main>
+
+		<footer>
+			<ul>
+				<li><a href="http://bealei.com" target="_blank">bealei</a></li>
+				<li>版权所有</li>
+			</ul>
+		</footer>
+	</body>
+</html>
